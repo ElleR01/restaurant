@@ -1,0 +1,35 @@
+CLIENT
+-insert in this path (.../client/nameAdminAut.json)
+ the json file with admin auth
+-you can create it from: 
+firebase site -> go to console -> go inside your progect
+-> go to project settings -> service account
+-> sdk firebase admin -> create new key
+
+-after you are done creating your own db you have to change some links
+on client side
+
+-------------------------------------------------------------------------
+
+SERVER
+-on the server folder you have to create the firebase init, follow this video
+https://www.youtube.com/watch?v=VStXlFxQgZg
+
+--------------------------------------------------------------------------
+
+REAL TIME DATABASE
+-you can import my file json with the structure
+ of my db "structure real time database.json"
+-------------------------------------------------------------------------
+USAGE
+-User who doesn't login can only watch menu
+-A user can login with his surname and password and in the same page there is
+a button to go in the signin form
+
+-after they are done choosing their food they can go to the cart
+-here they may change the portion
+-when he confirm he will "pay" and the order will be sended to the restaurant
+
+
+-when admin login he can visualize all the orders. Each order can be accepted.
+-an accepred order can be seen on history page of admin

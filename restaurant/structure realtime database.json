@@ -1,0 +1,207 @@
+{
+  "admin": [
+    {
+      "codiceAdmin": "passwordAdmin",
+      "cognome": "Admin",
+      "nome": "Admin"
+    }
+  ],
+  "menu": [
+    {
+      "categoria": "Primo",
+      "descrizione": "Pasta barilla con pomodoro fresco biologico",
+      "nome": "Spaghetti al pomodoro",
+      "prezzo": 11
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Spaghetti fatti a mano con ragu di manzo",
+      "nome": "Spaghetti al ragu",
+      "prezzo": 13
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Spaghetti fatti a mano con guanciale, uovo e panna",
+      "nome": "Spaghetti alla carbonara",
+      "prezzo": 13
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Agnolotti fatti a mano con ragu alla bolognese di manzo",
+      "nome": "Agnolotti alla bolognese",
+      "prezzo": 13
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Lasagne della nonna al forno",
+      "nome": "Lasagne alla bolognese",
+      "prezzo": 13
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Trofiette con polpo, grambretti e pomodorini freschi",
+      "nome": "Trofiette con fantasia di mare",
+      "prezzo": 15
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Pizza composta dal cliente",
+      "nome": "Piazza",
+      "prezzo": 15
+    },
+    {
+      "categoria": "Primo",
+      "descrizione": "Riso con uova, pisellini, e verdure",
+      "nome": "Riso alla cantonese",
+      "prezzo": 8
+    },
+    {
+      "categoria": "Secondo",
+      "descrizione": "Aragosta bolita",
+      "nome": "Aragosta",
+      "prezzo": 12
+    },
+    {
+      "categoria": "Secondo",
+      "descrizione": "Salsiccia grigliata ai ferri",
+      "nome": "Salsiccia alla gliglia",
+      "prezzo": 14
+    },
+    {
+      "categoria": "Secondo",
+      "descrizione": "Cotoletta di pollo acconpagnata con patate",
+      "nome": "Cotoletta alla milanese",
+      "prezzo": 12
+    },
+    {
+      "categoria": "Secondo",
+      "descrizione": "Manzo tagliato e cotto alla piasta",
+      "nome": "Tagliata di manzo",
+      "prezzo": 8
+    },
+    {
+      "categoria": "Secondo",
+      "descrizione": "Pescespada condito con pomodori, capperi olive, aglio, basilico",
+      "nome": "Pescespada alla greca",
+      "prezzo": 5
+    },
+    {
+      "categoria": "Secondo",
+      "descrizione": "Spiedino grigliato con verdure e manzo",
+      "nome": "Spiedino",
+      "prezzo": 5
+    },
+    {
+      "categoria": "Contorni",
+      "descrizione": "Carote lesse al vapore",
+      "nome": "Carote",
+      "prezzo": 6
+    },
+    {
+      "categoria": "Contorni",
+      "descrizione": "Spinaci al burro",
+      "nome": "Spinaci",
+      "prezzo": 4
+    },
+    {
+      "categoria": "Contorni",
+      "descrizione": "Insalata mista di verdure fresche",
+      "nome": "Insalata",
+      "prezzo": 8
+    },
+    {
+      "categoria": "Contorni",
+      "descrizione": "Patatine fritte meglio di quelle del mc",
+      "nome": "Patatine",
+      "prezzo": 8
+    },
+    {
+      "categoria": "Dolci",
+      "descrizione": "Tiramisù con lamponi freschi e scaglie di cioccolato",
+      "nome": "Tiramisù",
+      "prezzo": 5
+    },
+    {
+      "categoria": "Dolci",
+      "descrizione": "Millefoglie di mamma Rosa con gelato alla crema",
+      "nome": "Millefoglie",
+      "prezzo": 8
+    },
+    {
+      "categoria": "Dolci",
+      "descrizione": "Panna cotta alla menta con frutti di bosco",
+      "nome": "Panna cotta",
+      "prezzo": 7
+    },
+    {
+      "categoria": "Dolci",
+      "descrizione": "Tortino fatto in caso con cioccolato fondente",
+      "nome": "Tortino al ciocolato",
+      "prezzo": 9
+    },
+    {
+      "categoria": "Bibite",
+      "descrizione": "Vino del 1997",
+      "nome": "Vino bianco",
+      "prezzo": 6
+    },
+    {
+      "categoria": "Bibite",
+      "descrizione": "Vino del 1997",
+      "nome": "Vino rosso",
+      "prezzo": 8
+    },
+    {
+      "categoria": "Bibite",
+      "descrizione": "Coca cola fresca",
+      "nome": "Coca-cola",
+      "prezzo": 2
+    },
+    {
+      "categoria": "Bibite",
+      "descrizione": "Fanta fresca",
+      "nome": "Fanta",
+      "prezzo": 2
+    },
+    {
+      "categoria": "Bibite",
+      "descrizione": "Caffè perfetto",
+      "nome": "Caffè",
+      "prezzo": 1
+    },
+    {
+      "categoria": "Bibite",
+      "descrizione": "Acqua della giovinezza",
+      "nome": "Acqua",
+      "prezzo": 1
+    }
+  ],
+  "orders": {
+    "0": {
+      "cart": [
+        {
+          "categoria": "Primo",
+          "descrizione": "Pasta barilla con pomodoro fresco biologico",
+          "nome": "Spaghetti al pomodoro",
+          "prezzo": 11,
+          "quantita": "3"
+        }
+      ],
+      "client": {
+        "codiceCliente": "client1",
+        "cognome": "Name1",
+        "email": "nameSurname@gmail.com",
+        "nome": "Surname1"
+      },
+      "confirm": false
+    }
+  },
+  "users": {
+    "0": {
+      "codiceCliente": "client1",
+      "cognome": "Name1",
+      "email": "nameSurname@gmail.com",
+      "nome": "Surname1"
+    }
+  }
+}
